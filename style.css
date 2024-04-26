@@ -1,0 +1,38 @@
+.container{
+    max-width: 920px;
+    margin: 0 auto;
+}
+.student-form{
+    width: 100%;
+    height: 40px;
+    border: 1px solid forestgreen;
+}
+#btn{
+    font-size: 14px;
+    color: black;
+    background: teal;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 434px;
+    margin-bottom: 20px;
+}
+.student-formd{
+    font-size: 30px;
+    color: blue;
+    width: 100%;
+    text-align: left;
+}
+.box-title{
+    font-size: 30px;
+}
+#student{
+    display: ruby;
+}
+.head-title{
+    font-size: 30px;
+    color: green;
+    padding-left: 335px;
+}

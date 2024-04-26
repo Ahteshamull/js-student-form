@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Add Student</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3 class="head-title">ADD STUDENT</h3>
+        <form id="student">
+       
+            <div>
+                <label for="title">Name:</label class="box-title">
+            <input type="text" id="title" placeholder="Enter Your Name" class="student-form">
+            </div>
+            
+           <div>
+            <label for="batch">Batch No:</label class="box-title">
+            <input type="text" id="batch" placeholder="Enter Your Batch" class="student-form"><br>
+           </div>
+            
+           <div>
+            <label  for="student">Student Id:</label class="box-title">
+            <input type="text" id="student_Id" placeholder="Enter Your Id" class="student-form">
+           </div>
+
+
+            <div>
+            <input type="submit" value="SUBMIT" id="btn">
+            </div>
+
+        </form>
+
+        <table class="student-formd">
+            <thead>
+                <tr>
+                    <th>Name</th>
+
+                    <th>Batch No</th>
+
+                    <th>Student Id</th>
+
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="Student-list">
+            </tbody>
+        </table>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
